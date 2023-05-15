@@ -1,0 +1,184 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+
+
+}
+body{
+    background-image: url('/src/imagens/caverna_escura.png');
+    background-size: cover;
+}
+
+
+
+
+::-webkit-scrollbar {
+    width: 15px;
+
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #535353;
+    border-radius: 10px;
+}
+
+.cartao-pokemon:hover {
+    scale: 1.1;
+    transition: 0.2 ease-in;
+    background-color: rgb(41, 38, 38);
+    box-shadow: 8px 8px 15px 10px rgb(255, 0, 0);
+
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #575757;
+}
+
+
+.container {
+    width: 100%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+   /* background-color: rgb(8, 8, 8);*/
+    font-weight: bold;
+}
+
+
+.decricao {
+    color: aliceblue;
+    height: 150%;
+    overflow: auto;
+    font-size: 20pt;
+    padding-right: 10px;
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    padding: 1rem;
+    margin: 0;
+}
+
+.listagem-botao {
+    display: flex;
+    flex-direction: none;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5rem 2rem;
+    padding: 1% 7%s;
+    margin: 0;
+    justify-content: space-between;
+
+}
+
+.cartao-pokemon {
+    display: flex;
+    flex-direction: column;
+    background-color: #211d1d;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 20pt;
+    width: 18rem;
+    padding: 30px;
+    justify-content: space-around;
+    margin: 20px;
+    transition: 0.2s ease-in;
+    height: 27rem;
+
+
+}
+
+.tipos {
+    display: flex;
+    gap: 25px;
+    padding: 4% 10%;
+    list-style: none;
+}
+
+.tipo1 {
+    background-color: rgb(42, 231, 42);
+    border-radius: 20px;
+    padding: 10px;
+
+}
+
+.tipo2 {
+    background-color: rgb(229, 67, 224);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.informacoes {
+
+    display: flex;
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.gif {
+    width: 100px;
+    margin: 30px;
+    transition: 0.6s ease-in-out;
+    
+}
+
+.logo {
+    width: 5rem;
+
+}
+
+.lua {
+    width: 5rem;
+
+}
+
+.botao {
+    background-color: transparent;
+    border: none;
+
+}
+
+.gif:hover {
+    scale: 2;
+    transition: 0.6s;
+
+}
+
+.tipo1a {
+    background-color: aqua;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.tipo1f {
+    background-color: red;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.tipo1c {
+    background-color: rgb(241, 225, 7);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.tipo1m {
+    background-color: rgb(170, 71, 162);
+    border-radius: 20px;
+    padding: 10px;
+}
